@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVns9eStHfGJv0vKxVfELGroGkvsg+p" 
+          crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="ques_container">
+        <div class="allques">
+            <div class="questions">
+                <h3 id="questionText">What is the question?</h3>
+                <div class="choices">
+                    <div><p class="ChoiceText" data-number="1">num1</p></div>
+                    <div><p class="ChoiceText" data-number="2">num2</p></div>
+                    <div><p class="ChoiceText" data-number="3">num3</p></div>
+                    <div><p class="ChoiceText" data-number="4">num4</p></div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="textques">
+                    <p id="progressText">Question</p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                    <p>Score:</p>
+                    <p id="scorenumber">0</p>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="play.js"></script>
+</body>
+</html>

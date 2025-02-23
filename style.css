@@ -1,0 +1,159 @@
+/* Style général */
+body {
+    background-color: bisque;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:rgb(221, 102, 11);
+    position: relative;
+    overflow-y: auto;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles des liens */
+a {
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 15px;
+    border: 2px solid green;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+/* Conteneur de la question */
+.ques_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    background-color: hsl(93, 75%, 44%);
+    padding: 20px;
+    margin: 20px auto;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.allques {
+    width: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.textques {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.info {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Barre de progression */
+#progressBar {
+    width: 90%;
+    max-width: 300px;
+    height: 1rem;
+    border: 0.1rem solid bisque;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+#progressBarFull {
+    height: 1rem;
+    background-color: rgb(63, 76, 81);
+    width: 0%; /* La progression doit être mise à jour dynamiquement */
+}
+
+/* Section des questions et choix */
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.choices p {
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid hsl(93, 75%, 44%);
+    padding: 10px;
+    border-radius: 50px;
+    width: 80%;
+    max-width: 180px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choices p:hover {
+    background-color: hsl(93, 75%, 34%);
+    color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container, .ques_container {
+        width: 95%;
+        padding: 15px;
+        max-width: 400px;
+    }
+    .textques {
+        font-size: 0.9rem;
+    }
+    .choices p {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container, .ques_container {
+        width: 95%;
+        padding: 10px;
+        max-width: 350px;
+    }
+    .textques {
+        font-size: 0.8rem;
+    }
+    .choices p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
