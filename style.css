@@ -128,11 +128,10 @@ a:hover, a:active {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .container, .ques_container {
         width: 100%;
         padding: 15px;
-        max-width: 760px;
     }
     .textques {
         font-size: 1rem;
@@ -143,11 +142,10 @@ a:hover, a:active {
     }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     .container, .ques_container {
         width: 100%;
         padding: 10px;
-        max-width: 480px;
     }
     .textques {
         font-size: 0.8rem;
