@@ -28,7 +28,7 @@ a {
     background-color: blanchedalmond;
     color: black;
     border-radius: 15px;
-    border: 2px solid green;
+    border: 2px solid rgb(230, 166, 117);;
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover, a:active {
-    background-color: green;
+    background-color: rgb(230, 166, 117);;
     color: white;
 }
 
@@ -52,7 +52,7 @@ a:hover, a:active {
     border-radius: 15px;
     width: 90%;
     max-width: 500px;
-    background-color: hsl(93, 75%, 44%);
+    background-color: rgb(221, 102, 11);
     padding: 20px;
     margin: 20px auto;
     overflow-y: auto;
@@ -112,7 +112,7 @@ a:hover, a:active {
 .choices p {
     background-color: antiquewhite;
     color: black;
-    border: 2px solid hsl(93, 75%, 44%);
+    border: 2px solid rgb(230, 166, 117);;
     padding: 10px;
     border-radius: 50px;
     width: 80%;
@@ -123,7 +123,7 @@ a:hover, a:active {
 }
 
 .choices p:hover {
-    background-color: hsl(93, 75%, 34%);
+    background-color: rgb(230, 166, 117);;
     color: white;
 }
 
