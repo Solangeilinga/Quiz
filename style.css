@@ -132,14 +132,14 @@ a:hover, a:active {
     .container, .ques_container {
         width: 100%;
         padding: 15px;
-        max-width: 700px;
+        max-width: 760px;
     }
     .textques {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .choices p {
         width: 90%;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 
@@ -147,7 +147,7 @@ a:hover, a:active {
     .container, .ques_container {
         width: 100%;
         padding: 10px;
-        max-width: 400px;
+        max-width: 480px;
     }
     .textques {
         font-size: 0.8rem;
